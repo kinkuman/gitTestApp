@@ -26,6 +26,8 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    // NSLog
+    // Log
     NSLog(@"tap");
 }
 
