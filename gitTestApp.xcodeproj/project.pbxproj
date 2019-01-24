@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0014C321F9724900F45824 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0014C221F9724900F45824 /* TestViewController.m */; };
 		CE41A1851B05E3DA0008EC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41A1841B05E3DA0008EC16 /* main.m */; };
 		CE41A1881B05E3DA0008EC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41A1871B05E3DA0008EC16 /* AppDelegate.m */; };
 		CE41A18B1B05E3DA0008EC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41A18A1B05E3DA0008EC16 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0014C121F9724900F45824 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CE0014C221F9724900F45824 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CE41A17F1B05E3DA0008EC16 /* gitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE41A1831B05E3DA0008EC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE41A1841B05E3DA0008EC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		CE41A1811B05E3DA0008EC16 /* gitTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE0014C121F9724900F45824 /* TestViewController.h */,
+				CE0014C221F9724900F45824 /* TestViewController.m */,
 				CE41A1861B05E3DA0008EC16 /* AppDelegate.h */,
 				CE41A1871B05E3DA0008EC16 /* AppDelegate.m */,
 				CE41A1891B05E3DA0008EC16 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				CE41A18B1B05E3DA0008EC16 /* ViewController.m in Sources */,
 				CE41A1881B05E3DA0008EC16 /* AppDelegate.m in Sources */,
+				CE0014C321F9724900F45824 /* TestViewController.m in Sources */,
 				CE41A1851B05E3DA0008EC16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				CE41A1A41B05E3DA0008EC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE41A1A51B05E3DA0008EC16 /* Build configuration list for PBXNativeTarget "gitTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				CE41A1A71B05E3DA0008EC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
